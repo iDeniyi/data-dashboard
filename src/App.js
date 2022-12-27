@@ -6,9 +6,9 @@ import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 
 import Dashboard from "./scenes/dashboard/Dashboard";
-// import Team from "./scenes/team";
-// import Invoices from "./scenes/invoices";
-// import Contacts from "./scenes/contacts";
+import Team from "./scenes/team/Team";
+import Invoices from "./scenes/invoices/Invoices";
+import Contacts from "./scenes/contacts/Contacts";
 // import Form from "./scenes/form";
 // import Bar from "./scenes/bar";
 // import Line from "./scenes/line";
@@ -30,9 +30,9 @@ function App() {
                         <Topbar />
                         <Routes>
                             <Route path="/" element={<Dashboard />} />
-                            {/* <Route path="/team" element={<Team />} /> */}
-                            {/* <Route path="/invoices" element={<Invoices />} /> */}
-                            {/* <Route path="/contacts" element={<Contacts />} /> */}
+                            <Route path="/team" element={<Team />} />
+                            <Route path="/invoices" element={<Invoices />} />
+                            <Route path="/contacts" element={<Contacts />} />
                             {/* <Route path="/form" element={<Form />} /> */}
                             {/* <Route path="/bar" element={<Bar />} /> */}
                             {/* <Route path="/line" element={<Line />} /> */}
