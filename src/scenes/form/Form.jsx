@@ -63,7 +63,7 @@ const Form = () => {
                             }}
                         >
                             <TextField
-                                fullwidth
+                                fullwidth="true"
                                 variant="filled"
                                 type="text"
                                 label="First Name"
@@ -78,7 +78,7 @@ const Form = () => {
                                 sx={{ gridColumn: "span 2" }}
                             />
                             <TextField
-                                fullwidth
+                                fullwidth="true"
                                 variant="filled"
                                 type="text"
                                 label="Last Name"
@@ -91,7 +91,7 @@ const Form = () => {
                                 sx={{ gridColumn: "span 2" }}
                             />
                             <TextField
-                                fullwidth
+                                fullwidth="true"
                                 variant="filled"
                                 type="text"
                                 label="Email"
@@ -104,7 +104,7 @@ const Form = () => {
                                 sx={{ gridColumn: "span 4" }}
                             />
                             <TextField
-                                fullwidth
+                                fullwidth="true"
                                 variant="filled"
                                 type="text"
                                 label="Contact Number"
@@ -117,7 +117,7 @@ const Form = () => {
                                 sx={{ gridColumn: "span 4 " }}
                             />
                             <TextField
-                                fullwidth
+                                fullwidth="true"
                                 variant="filled"
                                 type="text"
                                 label="Address 1"
@@ -130,7 +130,7 @@ const Form = () => {
                                 sx={{ gridColumn: "span 2 " }}
                             />
                             <TextField
-                                fullwidth
+                                fullwidth="true"
                                 variant="filled"
                                 type="text"
                                 label="Address 2"
