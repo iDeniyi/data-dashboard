@@ -1,128 +1,91 @@
-import { Box, useTheme, Typography } from "@mui/material";
+import { Box, useTheme } from "@mui/material";
+import Header from "../../components/Header";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { tokens } from "../../theme";
-import Header from "../../components/Header";
 
-import React from "react";
-
-const Faq = () => {
+const FAQ = () => {
     const theme = useTheme();
-    const colours = tokens(theme.palette.mode);
+    const colors = tokens(theme.palette.mode);
     return (
         <Box m="20px">
-            <Header
-                title="FAQs"
-                subtitle="Some Frequently Asked Questions..."
-            />
-            <Accordion defaultExpanded="true">
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography color={colours.greenAccent[500]} variant="h5">
-                        Question 1
-                    </Typography>
-                    <AccordionDetails>
-                        <Typography>
-                            Dh akahfa ahfva ahhhd, hhhfa hd hdhdhhdhdh,9nerv9e
-                            kan adfhb djka. ajndj djd jjdjjd dn nnnm ndn
-                            jdndjjn.
-                        </Typography>
-                    </AccordionDetails>
-                </AccordionSummary>
-            </Accordion>
+            <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
 
-            <Accordion defaultExpanded="true">
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography color={colours.greenAccent[500]} variant="h5">
-                        Question 2{" "}
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        An Important Question
                     </Typography>
-                    <AccordionDetails>
-                        <Typography>
-                            Dh akahfa ahfva ahhhd, hhhfa hd hdhdhhdhdh,9nerv9e
-                            kan adfhb djka. ajndj djd jjdjjd dn nnnm ndn
-                            jdndjjn.
-                        </Typography>
-                    </AccordionDetails>
                 </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse malesuada lacus ex, sit amet blandit leo
+                        lobortis eget.
+                    </Typography>
+                </AccordionDetails>
             </Accordion>
-
-            <Accordion defaultExpanded="true">
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography color={colours.greenAccent[500]} variant="h5">
-                        Question 3
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        Another Important Question
                     </Typography>
-                    <AccordionDetails>
-                        <Typography>
-                            Dh akahfa ahfva ahhhd, hhhfa hd hdhdhhdhdh,9nerv9e
-                            kan adfhb djka. ajndj djd jjdjjd dn nnnm ndn
-                            jdndjjn.
-                        </Typography>
-                    </AccordionDetails>
                 </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse malesuada lacus ex, sit amet blandit leo
+                        lobortis eget.
+                    </Typography>
+                </AccordionDetails>
             </Accordion>
-
-            <Accordion defaultExpanded="true">
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography color={colours.greenAccent[500]} variant="h5">
-                        Question 4
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        Your Favorite Question
                     </Typography>
-                    <AccordionDetails>
-                        <Typography>
-                            Dh akahfa ahfva ahhhd, hhhfa hd hdhdhhdhdh,9nerv9e
-                            kan adfhb djka. ajndj djd jjdjjd dn nnnm ndn
-                            jdndjjn.
-                        </Typography>
-                    </AccordionDetails>
                 </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse malesuada lacus ex, sit amet blandit leo
+                        lobortis eget.
+                    </Typography>
+                </AccordionDetails>
             </Accordion>
-
-            <Accordion defaultExpanded="true">
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography color={colours.greenAccent[500]} variant="h5">
-                        Question 5
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        Some Random Question
                     </Typography>
-                    <AccordionDetails>
-                        <Typography>
-                            Dh akahfa ahfva ahhhd, hhhfa hd hdhdhhdhdh,9nerv9e
-                            kan adfhb djka. ajndj djd jjdjjd dn nnnm ndn
-                            jdndjjn.
-                        </Typography>
-                    </AccordionDetails>
                 </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse malesuada lacus ex, sit amet blandit leo
+                        lobortis eget.
+                    </Typography>
+                </AccordionDetails>
             </Accordion>
-
-            <Accordion defaultExpanded="true">
+            <Accordion defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography color={colours.greenAccent[500]} variant="h5">
-                        Question 6
+                    <Typography color={colors.greenAccent[500]} variant="h5">
+                        The Final Question
                     </Typography>
-                    <AccordionDetails>
-                        <Typography>
-                            Dh akahfa ahfva ahhhd, hhhfa hd hdhdhhdhdh,9nerv9e
-                            kan adfhb djka. ajndj djd jjdjjd dn nnnm ndn
-                            jdndjjn.
-                        </Typography>
-                    </AccordionDetails>
                 </AccordionSummary>
-            </Accordion>
-
-            <Accordion defaultExpanded="true">
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography color={colours.greenAccent[500]} variant="h5">
-                        Question 7
+                <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse malesuada lacus ex, sit amet blandit leo
+                        lobortis eget.
                     </Typography>
-                    <AccordionDetails>
-                        <Typography>
-                            Dh akahfa ahfva ahhhd, hhhfa hd hdhdhhdhdh,9nerv9e
-                            kan adfhb djka. ajndj djd jjdjjd dn nnnm ndn
-                            jdndjjn.
-                        </Typography>
-                    </AccordionDetails>
-                </AccordionSummary>
+                </AccordionDetails>
             </Accordion>
         </Box>
     );
 };
 
-export default Faq;
+export default FAQ;
